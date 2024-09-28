@@ -1,0 +1,221 @@
+.navBar{
+   color: #080808;
+   display: flex;
+   justify-content: space-between;
+}
+.navBar>ul{
+    list-style-type:none;
+    padding: 0%;
+    margin: 0%;
+    float: right;
+}
+.navBar>ul>li{
+    display: inline-block;
+    padding: 20px;
+}
+.navBar>ul>li:hover{
+    background-color: #fff;
+}
+.navBar>ul>li>a{
+    text-decoration: none;
+    color: #080808;
+}
+.navBar>ul>li:hover a{
+    color: grey;
+}
+.navBar>h1{
+    height: 54px;
+}
+
+.register{
+    background-color: grey;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.body-container{
+    display: flex;
+    height: 60vh;
+ /*    background-color: grey; */
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.left{
+
+    font-size: 20px;
+    padding: 50px;
+    justify-content: space-between;
+
+}
+
+.left>h1{
+    font-size: 45px;
+
+}
+
+.left>p{
+    padding: 20px;
+    height: 50px;
+    width: 500px;
+ 
+    font-size: 15px ;
+}
+
+
+.left>button
+{
+
+    font-size: 15px;
+    color: #080808;
+    padding:  10px 15px;
+    border-radius: 20px;
+    border: none;
+}
+
+.left>button:hover
+{ 
+   background-color: black;
+   color: white;
+}
+
+.image-container .chair{
+    background-color: grey;
+    border-radius: 250px;
+    margin: 30px;
+}
+
+.secondpage{
+     width: 100%;
+    display: flex;
+    padding-left:1200px ;
+}
+
+
+
+.secondpage>div{
+    padding: 20px;
+  
+    
+}
+
+.secondpage>div>h1{
+    font-size: 30px;  
+}
+
+.secondpage>div>p{
+    font-size: 20px;  
+}
+
+
+.thirdpage{
+    margin: 20px;
+    height: 110vh;
+    padding: 20px;
+}
+
+
+.thirdpage .cards{
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.thirdpage .shop{
+    text-align: center;
+    font-size: 35px;
+}
+
+.thirdpage .cards .chair2{
+    border-top-left-radius: 20px;  
+    border-top-right-radius: 20px; 
+    background-color: aqua;
+}
+
+.cards .black{
+
+    background-color: rgb(6, 6, 6);
+    color: white;
+    text-align: center;
+}
+
+.fouthpage{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.longevity{
+    display: flex;
+}
+.longevity .Quantity{
+    padding: 20px;
+    margin: 10px;
+}
+
+
+.longevity .Quantity:hover{
+    background-color:lightgrey;
+}
+
+.chooseUs>h1{
+    font-size: 35px;
+}
+
+.kitten{
+    padding-left: 100px;
+}
+
+.fifthpage{
+    width: 100%;
+    display: flex;
+
+}
+
+.delivery {
+    display: flex;
+    padding: 20px;
+}
+
+.best{
+    width: 50%;
+    padding: 100px;
+}
+
+.star{
+    padding: 20px;
+}
+
+.fifthpage>div>h1{
+    text-align: center;
+}
+
+.fifthpage .star:hover{
+    background-color: lightgrey;
+}
+
+.features{
+    float: right;
+}
+
+.last-page{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+.logo{
+    width: 50%;
+}
+
+.blogs{
+    width: 50%;
+    display: flex;
+}
+
+.news{
+    padding: 30px;
+}
